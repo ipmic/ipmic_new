@@ -1,1 +1,27 @@
-Add documentation and code
+Things to be done
+
+  - High priority
+
+* 07/08/2017: create server's main() to parse options and run the server
+* 07/08/2017: create alsa-lib interface
+* 07/08/2017: implement frontend actions
+* 07/08/2017: implement client/server synchronization
+* 07/08/2017: (partially implemented) implement in server timer/device
+  synchronization
+
+
+  - Medium priority
+
+* 27/06/2017: allow frontend to reject a microphone connection
+* 27/06/2017: implement dynamic/variable latencies
+
+
+  - Low priority:
+
+* 26/08/2017: Packet Loss Concealment
+
+
+  - Only for the record (it's not to be done!)
+
+* 28/06/2017: implement socket-via-shm (shmsocket) which is a method to
+  communicate like UNIX domain sockets using shared memory
